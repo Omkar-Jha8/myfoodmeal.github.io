@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+#header {
+    display: flex;
+    background-color: black;
+    opacity: 85%;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: .00000001px;
+}
+
+#header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    padding: 0 7px;
+    color: white;
+}
+
+.logo {
+    padding: .5rem .5rem .5rem 1rem;
+}
+
+.a-rocks:hover {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 4px 2px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url(websiteback.jpg)no-repeat;
+    background-size: cover; */
+    color: white;
+    margin: 50px;
+    padding: 20rem;
+}
+
+.introduction {
+    background: url(websiteback.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -7rem;
+    padding: -25rem;
+}
+
+.good {
+    font-size: 2.5rem;
+    padding: 1rem 0 1rem 0;
+    animation-name: omkar;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes omkar {
+    from {
+        color: rgb(255, 255, 255);
+    }
+    to {
+        color: rgb(0, 217, 255);
+    }
+}
+
+section p {
+    font-size: 1rem;
+}
+
+.btn {
+    outline: none;
+    border-radius: 8px;
+    margin: .4rem;
+    border: solid black;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: solid white;
+}
+
+div h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    margin: 4rem;
+    border: 5px solid black;
+}
+
+.box {
+    border: 2px solid rgb(13, 158, 255);
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    width: 800px;
+    margin: 10px;
+    background-color: rgb(204, 236, 236);
+}
+
+.box img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.first-heading {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.box p {
+    text-align: center;
+    display: inline-block;
+    padding: .5rem 0;
+    font-size: 1.2rem;
+}
+
+.first {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.our-services {
+    display: flex;
+    margin: 1rem 5rem 1rem 5rem;
+    padding: 1rem 5rem;
+}
+
+.top {
+    text-align: center;
+    font-size: 2.7rem;
+    height: 10px;
+}
+
+.box h3 {
+    font-size: 2rem;
+}
+
+.aboutus {
+    display: flex;
+}
+
+.conta {
+    font-size: 2rem;
+    margin-top: 8.8rem;
+}
+
+.aboutus img {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.contact {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contactus {
+    display: flex;
+}
+
+.contactus img {
+    margin: 1rem 1rem 1rem 64vw;
+}
+
+.about {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: -97vw;
+}
+
+.ab {
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media screen and (max-width:1170px) {
+    body {
+        display: block;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+        display: block;
+        position: sticky;
+        position: -webkit-sticky;
+        top: .000005px;
+        z-index: 1110;
+    }
+    .logo {
+        height: 30px;
+        width: 30px;
+        padding: 5px 11rem;
+    }
+    .introduction {
+        text-align: center;
+        background: url(websiteback.jpg)no-repeat/cover;
+    }
+    .intro {
+        /* margin-left: -13.8rem; */
+        margin-top: 10rem;
+        padding: 15rem;
+        display: inline;
+    }
+    .good {
+        font-size: 2rem;
+        margin-top: 10rem;
+    }
+    .btn {
+        margin-left: 8.5rem;
+        display: block;
+        margin-top: 1rem;
+        cursor: pointer;
+        z-index: 1100;
+    }
+    .intro p {
+        font-size: 1.5rem;
+        display: block;
+        border-radius: 15px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        line-height: 20px;
+        background: url(1595904.webp)no-repeat;
+        background-size: cover;
+        padding: 2rem 2rem;
+        opacity: 70%;
+    }
+    .our-services {
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    .box {
+        box-sizing: border-box;
+        margin-left: -9rem;
+        width: 320px;
+        display: block;
+    }
+    .aboutus {
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    .aboutus img {
+        height: 13.5rem;
+        display: block;
+    }
+    .conta {
+        margin: -.5rem 0 0 1em;
+        font-size: .8rem;
+        display: flex;
+        line-height: 2rem;
+        display: block;
+    }
+    .contactus {
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    .contactus img {
+        height: 15rem;
+        width: 20rem;
+        margin-left: 1rem;
+        display: block;
+    }
+    .about {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: -.5rem;
+        margin-right: 1rem;
+        display: block;
+    }
+}

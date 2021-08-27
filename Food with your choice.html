@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food with your choice</title>
+<link rel="stylesheet" href="Food%20with%20your%20choice_files/style.css"></head>
+
+<body>
+    <nav id="header">
+        <img class="logo" src="Food%20with%20your%20choice_files/food%2520logo.png" width="50px">
+        <ul class="upper">
+            <a href="">
+                <li class="item">Home</li>
+            </a>
+            <a href="">
+                <li class="item">Services</li>
+            </a>
+            <a href="">
+                <li class="item">About us</li>
+            </a>
+            <a href="">
+                <li class="item">Contact us</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="introduction">
+        <section class="intro">
+            <h2 class="good">GOOD FOOD,GOOD MOOD</h2>
+            <p>Lorem ipsum dolor sit amet,quidem ratione, est doloribus repellat perferendis libero</p>
+            <p>Lorem ipsum dolor sit amet,quidem ratione, est doloribus</p>
+            <button class="btn">Get Food</button>
+        </section>
+    </div>
+    <div class="our-services">
+        <b> <h1 class="top">Our Services</h1></b>
+    </div>
+    <div class="box">
+        <img src="Food%20with%20your%20choice_files/burger.jpg" alt="" class="first">
+        <h3 class="first-heading">Food catering</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Tempora recusandae itaque, iure quo accusamus sunt, ut iusto labore 
+corrupti maxime magni non deleniti dolor nesciunt, nostrum ipsa 
+exercitationem nisi incidunt.</p>
+    </div>
+    <div class="box">
+        <img src="Food%20with%20your%20choice_files/pani%2520puri.jpg" alt="" class="first">
+        <h3 class="first-heading">Food catering</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Tempora recusandae itaque, iure quo accusamus sunt, ut iusto labore 
+corrupti maxime magni non deleniti dolor nesciunt, nostrum ipsa 
+exercitationem nisi incidunt.</p>
+    </div>
+    <div class="box">
+        <img src="Food%20with%20your%20choice_files/pizza.jpg" alt="" class="first">
+        <h3 class="first-heading">Food catering</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Tempora recusandae itaque, iure quo accusamus sunt, ut iusto labore 
+corrupti maxime magni non deleniti dolor nesciunt, nostrum ipsa 
+exercitationem nisi incidunt.</p>
+    </div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
